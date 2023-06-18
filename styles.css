@@ -1,0 +1,109 @@
+:root {
+    --green: #302b23;
+    --white: #886a29;
+    --purple: #b68723aa;
+    --purple-blc: #856222dd;
+    --shadow: 0 5px 10px 5px rgba(0, 0, 0, .3);
+    --navColor: linear-gradient(to right, rgba(1, 1, 1, 0.6)5%, rgba(29, 41, 33, 0.9));
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color: rgb(99, 72, 32);
+    height: 900px;
+
+
+}
+
+nav {
+    position: absolute;
+    background: var(--navColor);
+    box-shadow: var(--shadow);
+    height: 80px;
+    width: 100%;
+    color: rgb(201, 183, 156);
+}
+
+h2 {
+    color: var(--white);
+    text-align: center;
+    padding: 120px;
+    color: rgb(211, 205, 197);
+    font-style: italic;
+    font-size: 70px;
+
+
+
+}
+
+/*Formatação do menu*/
+
+nav ul {
+    float: right;
+    margin-right: 80px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    text-indent: 90px;
+    font-size: 25px;
+
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: #fcf2fa;
+    text-decoration: none;
+    color: var(--white);
+
+
+}
+
+/* formatação do artigo */
+article {
+
+    margin-bottom: 990px;
+    color: #fcf2fa;
+    text-decoration: double;
+    font-size: 30px;
+    height: 20px;
+    width: 90vh;
+    margin: 90px;
+
+}
+P {
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+article h1 {
+    font-size: 80px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    font-style: italic;
+}
+
+label.logo {
+    color: var(--white);
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 80px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    font-style: italic;
+    transition: .2s ease;
+    text-shadow: 3px 5px 20px #230622aa;
+}
+
+footer 
+     {
+        clear: both;
+        border-top: 1px solid black;
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+        color: rgb(148, 132, 89);
+    }
