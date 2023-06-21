@@ -81,6 +81,7 @@ article {
     text-decoration: double;
     font-size: 25px;
     margin: 90px;
+    
 }
 
 article h1 {
@@ -88,10 +89,13 @@ article h1 {
     margin-bottom: 90px;
     margin-top: 90px;
     font-style: italic;
+   
 }
 
 article p {
     margin-top: 50px;
+   
+    
   
    
     
@@ -117,11 +121,12 @@ footer {
     background-color: #1f1b12;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
     clear: both;
-    border-top: 1px solid black;
     padding: 15px;
     padding-top: 5px;
     color: var(--brown-ligth);
     font-size: 20px;
+    font-weight: 800;
+   
    
 }
 
