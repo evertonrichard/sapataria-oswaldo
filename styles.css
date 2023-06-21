@@ -122,7 +122,7 @@ footer {
     box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
     clear: both;
     padding: 15px;
-    padding-top: 5px;
+    padding-top: 10px;
     color: var(--brown-ligth);
     font-size: 20px;
     font-weight: 800;
@@ -168,7 +168,7 @@ footer {
 section {
   height: 150vh;
   background: url('pexels-maksim-goncharenok-9929032.jpg') no-repeat;
-  background-position-y: -220px;
+  background-position-y: -0px;
   background-size: cover;
   background-color:  #463827;
 }
