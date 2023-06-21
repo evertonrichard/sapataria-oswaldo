@@ -1,5 +1,4 @@
-/* Variavéis de cor/sombra, para formatação de todo elemento CSS. */
-
+/* Variáveis de cor/sombra, para formatação de todo elemento CSS. */
 :root {
     --brown: #92713b;
     --brown-dark: #886a29;
@@ -9,86 +8,77 @@
     --navColor: linear-gradient(to right, #463827 5%, #1f1b12);
 }
 
- /* Corpo do Site */
-
+/* Corpo do Site */
 body {
     font-family: 'Lora', serif;
-    background-color: #463827;
-    background-image: url(pexels-maksim-goncharenok-9929032.jpg);
-    background-position-y: -200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 900px;
-    width: 100%;
+   
    
 }
 
-/* Formatação da nav */
 
-nav {
-
-    position: absolute;
-    background: var(--navColor);
-    box-shadow: var(--shadow);
-    height: 80px;
-    width: 100%;
-    color: rgb(201, 183, 156);
-}
 
 /* Formatação do Subtítulo */
-
 h2 {
-
     text-align: center;
-    padding: 120px;
+    padding: 120px 0;
     color: rgb(249, 249, 249);
     font-style: italic;
     font-size: 50px;
-
 }
 
-/* Formatação do menu */
+/* Formatação da nav/menu */
+
+nav {
+  position: fixed;
+  background: var(--navColor);
+  box-shadow: var(--shadow);
+  height: 80px;
+  width: 100%;
+  color: rgb(201, 183, 156);
+}
+
 
 nav ul {
-
-    position: relative;
     float: right;
     margin-right: 75px;
+    position: relative;
+    margin: 0;
+    padding: 0;
     display: flex;
-    text-indent: 50px;
+    padding-right: 20px;
+    align-items: center;
+    height: 100%;
     font-size: 20px;
-    padding-top: 30px;
+    text-indent: 30px;
+    
 }
 
-li {
+nav ul li {
     list-style: none;
+    margin-left: 20px;
 }
 
-li a {
+nav ul li a {
     color: #fcf2fa;
     text-decoration: none;
     color: #d7a86e;
-}
-
-a:hover {
-    padding: 10px;
+    padding: 2px;
     border-radius: 5px;
-    background: var(--brown-dark);
     transition: .5s;
 }
 
-/* formatação do artigo */
+nav ul li a:hover {
+  background: var(--brown-dark);
+  padding: 10px;
+}
 
+/* Formatação do artigo */
 article {
-
-    margin-bottom: 800px;
+   
     color: #fcf2fa;
     text-decoration: double;
     font-size: 25px;
-    height: 20px;
-    width: 90vh;
     margin: 90px;
-    
 }
 
 article h1 {
@@ -98,41 +88,47 @@ article h1 {
     font-style: italic;
 }
 
-P {
-    float: right;
-    margin-right: 150px;
-    margin-top: 20px;
+article p {
+    margin-top: 50px;
+  
+   
+    
 }
 
-
 /* Formatação do logo */
-
 label.logo {
     color: #d7a86e;
     font-size: 30px;
     line-height: 80px;
-    padding: 0 80px;
+    padding: 0 20px;
     letter-spacing: -1px;
     font-weight: 800;
     font-style: italic;
     transition: .2s ease;
     text-shadow: 3px 5px 20px #271c26aa;
 }
- 
-/* Formatação do rodapé */
 
+/* Formatação do rodapé */
 footer {
     background-color: #1f1b12;
-    height: 20px;
-    box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
     clear: both;
     border-top: 1px solid black;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     color: #886a29;
     font-size: 20px;
-
 }
 
+
+/* Formatação da section */
+
+section {
+  height: 150vh;
+  background: url('pexels-maksim-goncharenok-9929032.jpg') no-repeat;
+  background-position-y: -220px;
+  background-size: cover;
+  background-color:  #463827;
+}
 
 
