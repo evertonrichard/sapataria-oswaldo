@@ -141,6 +141,13 @@ footer {
   font-size: 20px;
   color: var(--brown-ligth);
 }
+.fa-whatsapp{
+float: right;
+margin-right: 90px;
+text-indent: 10px;
+font-size: 20px;
+color: var(--brown-ligth);
+}
 
 .fa-instagram {
   float: right;
