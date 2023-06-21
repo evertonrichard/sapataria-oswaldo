@@ -4,20 +4,21 @@
     --brown-dark: #886a29;
     --brown-more-dark: #b68723aa;
     --brown-blc: #856222dd;
+    --brown-ligth: #d7a86e;
+    --whithe: #c1c1c1dd;
     --shadow: 0 5px 10px 5px rgba(0, 0, 0, .3);
     --navColor: linear-gradient(to right, #463827 5%, #1f1b12);
 }
 
 /* Corpo do Site */
+
 body {
-    font-family: 'Lora', serif;
-   
-   
+  font-family: 'Lora', serif;
+    
 }
 
-
-
 /* Formatação do Subtítulo */
+
 h2 {
     text-align: center;
     padding: 120px 0;
@@ -73,6 +74,7 @@ nav ul li a:hover {
 }
 
 /* Formatação do artigo */
+
 article {
    
     color: #fcf2fa;
@@ -96,6 +98,7 @@ article p {
 }
 
 /* Formatação do logo */
+
 label.logo {
     color: #d7a86e;
     font-size: 30px;
@@ -109,15 +112,49 @@ label.logo {
 }
 
 /* Formatação do rodapé */
+
 footer {
     background-color: #1f1b12;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
     clear: both;
     border-top: 1px solid black;
-    text-align: center;
-    padding: 20px;
-    color: #886a29;
+    padding: 15px;
+    padding-top: 5px;
+    color: var(--brown-ligth);
     font-size: 20px;
+   
+}
+
+/* Formatação dos logos no rodapé */
+
+.fa-facebook {
+  float: right;
+  margin-right: 90px;
+  text-indent: 10px;
+  font-size: 20px;
+  color: var(--brown-ligth);
+}
+
+.fa-instagram {
+  float: right;
+  margin-right: 90px;
+  text-indent: 10px;
+  font-size: 20px;
+  color: var(--brown-ligth);
+}
+.fa-twitter  {
+  float: right;
+  margin-right: 90px;
+  text-indent: 10px;
+  font-size: 20px;
+  color: var(--brown-ligth);
+}
+.fa-github  {
+  float: right;
+  margin-right: 90px;
+  text-indent: 10px;
+  font-size: 20px;
+  color: var(--brown-ligth);
 }
 
 
