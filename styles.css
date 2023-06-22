@@ -1,4 +1,5 @@
 /* Variáveis de cor/sombra, para formatação de todo elemento CSS. */
+@charset "UTF-8";
 :root {
     --brown: #92713b;
     --brown-dark: #886a29;
