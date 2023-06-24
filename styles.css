@@ -15,6 +15,7 @@
 
 body {
   font-family: 'Lora', serif;
+  
     
 }
 
@@ -74,6 +75,13 @@ nav ul li a:hover {
   padding: 10px;
 }
 
+.active {
+  padding: 10px;
+  background: var(--brown-dark);
+  
+}
+
+
 /* Formatação do artigo */
 
 article {
@@ -123,6 +131,7 @@ footer {
     color: var(--brown-ligth);
     font-size: 20px;
     font-weight: 800;
+   
 }
 
 /* Formatação dos logos no rodapé */
