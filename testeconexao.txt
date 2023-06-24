@@ -1,5 +1,9 @@
+<<<<<<< HEAD
+ggggggkffkgit
+=======
 Ola eu sou uma alteração no git main 
 
 fkffkfkkfkkfgit merge 
 
 
+>>>>>>> main
