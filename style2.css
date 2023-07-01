@@ -1,0 +1,153 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+
+:root{
+    --brown: #92713b;
+    --brown-dark: #886a29;
+    --brown-more-dark: #b68723aa;
+    --brown-blc: #856222dd;
+    --brown-ligth: #d7a86e;
+    --whithe: #c1c1c1dd;
+    --shadow: 0 5px 10px 5px rgba(0, 0, 0, .3);
+    --navColor: linear-gradient(to right, #463827 5%, #1f1b12);
+ 
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.page-title {
+    /* SHORTHAND MARGENS*/    
+    margin: 40px auto 5px;
+    padding-left: 10px;
+    width: 80%;
+    font-size: 30pt;
+    font-weight: bold;
+    color: #d7a86e;       
+}
+
+ .article-title {
+    /* margin: 5px auto 25px; */ 
+    
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    width: 80%;
+    font-size: 30px;
+    color: #d7a86e;   
+    align-items: center;
+}    
+
+main{
+width: 80%;
+margin: 40px auto 5px;
+padding-left: 10px;
+
+}
+
+.article-title {
+/* SHORTHAND MARGENS*/    
+margin: 40px auto 5px;    
+font-size: 40pt;    
+color: var(--brown-ligth);    
+text-align: center;   
+font-style: italic;
+}
+
+
+.titulo-produto {
+/* SHORTHAND MARGENS*/    
+margin: 40px 0 5px;    
+font-size: 40pt;    
+color: #d7a86e;    
+text-align: center;   
+font-style: italic;
+background: #775b4b;
+;
+border-radius: 10px;
+
+}
+
+ /* Formatação das imagens */
+
+article  {
+    margin: 50px 0 80px;
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: center;
+   
+    
+   
+}
+.imagens {
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 90px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+footer{
+background-color: #775b4b;
+box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+clear: both;
+padding: 15px;
+padding-top: 10px;
+color: var(--brown-ligth);
+font-size: 20px;
+font-weight: 800;
+}
+
+.fa-facebook {
+    float: right;
+    margin-right: 20px;
+    text-indent: 2px;
+    font-size: 20px;
+    color: var(--brown-ligth);
+  }
+  .fa-whatsapp{
+  float: right;
+  margin-right: 90px;
+  text-indent: 2px;
+  font-size: 20px;
+  color: var(--brown-ligth);
+  
+  }
+  
+  
+  .fa-instagram {
+    float: right;
+    margin-right: 90px;
+    text-indent: 2px;
+    font-size: 20px;
+    color: var(--brown-ligth);
+  }
+  .fa-twitter  {
+    float: right;
+    margin-right: 90px;
+    text-indent: 2px;
+    font-size: 20px;
+    color: var(--brown-ligth);
+  }
+  .fa-github  {
+    float: right;
+    margin-right: 90px;
+    text-indent: 2px;
+    font-size: 20px;
+    color: var(--brown-ligth);
+  }
+  
+  .fa-linkedin {
+    float: right;
+    margin-right: 90px;
+    text-indent: 2px;
+    font-size: 20px;
+    color: var(--brown-ligth);
+  }
+
+
+
