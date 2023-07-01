@@ -75,11 +75,14 @@ nav ul li a:hover {
   padding: 10px;
 }
 
+<<<<<<< HEAD
 .active {
   padding: 10px;
   background: var(--brown-dark);
   
 }
+=======
+>>>>>>> work
 
 
 /* Formatação do artigo */
@@ -196,4 +199,6 @@ section {
   background-size: cover;
   background-color:  #463827;
 }
+
+
 
