@@ -18,6 +18,27 @@ body {
     padding: 0;
     background-color: #ffffff;
 }
+.active {
+  background-color: #775b4b;
+  padding: 0  20px ;
+  border-radius: 15px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  transition: 0.5s;
+  
+}
+li {
+  list-style-type: none;
+  font-size: 30px;
+  font-weight: 30px;
+  color: var(--brown-ligth);
+ 
+  
+}
+
 
 .page-title {
     /* SHORTHAND MARGENS*/    
@@ -89,6 +110,7 @@ article  {
     margin-right: 90px;
     padding-left: 80px;
     padding-top: 30px;
+    
 }
 footer{
 background-color: #775b4b;
